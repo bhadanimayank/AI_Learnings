@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets -- never commit API keys
+.env
+.env.*
+!.env.example
+
+# Data & model artefacts (large; keep out of git)
+data/raw/
+*.safetensors
+*.pt
+*.ckpt
+checkpoints/
+wandb/
+mlruns/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

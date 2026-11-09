@@ -1,0 +1,7 @@
+[project]
+name = "ai-engineering-journey"
+version = "0.1.0"
+description = "Learning reference: Lead Full Stack Engineer -> Applied AI Engineer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
